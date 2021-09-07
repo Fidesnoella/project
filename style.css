@@ -1,0 +1,95 @@
+html {
+    font-size: 62.5%;
+}
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+
+}
+.clear {
+    clear: both;
+}
+ h1 {
+     font-size: 2.8rem;
+    }
+h2 {
+    font-size: 3.5rem;
+}
+
+a {
+    color: white;
+    text-decoration: none;
+    font-size: 2.4rem;
+}
+
+h3 {
+    font-size: 1.8rem;
+}
+
+nav {
+    background: rgb(151, 138, 151);
+    color: white;
+    padding: 3rem;
+}
+nav h1 {
+    float: left;
+   }
+nav ul {
+    float: right;
+    list-style: none;
+}
+nav li {
+    float: left;
+    margin: 0rem 4rem;
+}
+.hero {
+    height: 60rem;
+    background-image: url("flow.jpg");
+    background-position: center ;
+    background-size: cover;
+    text-align: center;
+    color: white;
+    padding-top: 10rem;
+    text-shadow: 3px 3px 3px  black;
+}
+.hero button {
+    margin-top: 3rem;
+ padding: 2rem 4rem;
+ background: cadetblue;
+ border: none;
+ color: cornsilk;
+ cursor: pointer;
+}
+
+.form {
+    text-align: center;
+}
+
+.form h2 {
+    margin: 2.4rem;
+}
+ form input,
+ form label,
+ form textarea {
+     display: block;
+     font-size: 2.4rem;
+ }
+
+ form input, form textarea {
+     margin: 2rem auto;
+     width: 50%;
+
+ }
+  form button {
+      margin-bottom: 5rem;
+      padding: 1rem 4rem;
+ background: cadetblue;
+ border: none;
+ color: cornsilk;
+ cursor: pointer;
+ width: 50%;
+  }
+  form button:hover{
+      background: rgb(38, 22, 177);
+  }
